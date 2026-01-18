@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllTools } from "@/lib/tools-config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://browserytools.com";
+  const baseUrl = "https://softstash.org";
   const currentDate = new Date();
 
   // Get all available tools

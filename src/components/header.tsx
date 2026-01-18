@@ -39,7 +39,7 @@ Please describe what this tool should do and how it would help users.
     `.trim()
     );
 
-    const githubUrl = `https://github.com/aghyad97/browserytools/issues/new?title=${issueTitle}&body=${issueBody}&labels=tool-request`;
+    const githubUrl = `https://github.com/aghyad97/softstash/issues/new?title=${issueTitle}&body=${issueBody}&labels=tool-request`;
 
     window.open(githubUrl, "_blank");
   };
@@ -82,7 +82,7 @@ Please describe what this tool should do and how it would help users.
               <div className="flex flex-row gap-2">
                 <Logo />
                 <h1 className="text-sm md:text-xl font-semibold">
-                  BrowseryTools (alpha)
+                  SoftStash
                 </h1>
               </div>
             )}
@@ -93,87 +93,15 @@ Please describe what this tool should do and how it would help users.
         <div className="flex items-center gap-2 sm:gap-4">
           {/* Desktop social links */}
           <div className="hidden sm:flex items-center gap-2">
-            <Link
-              href="/gh"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Visit our GitHub repository"
-            >
-              <Button
-                variant="ghost"
-                size="icon"
-                aria-label="Visit our GitHub repository"
-              >
-                <Github className="h-4 w-4" />
-              </Button>
-            </Link>
-            <Link
-              href="/x"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Follow us on X (Twitter)"
-            >
-              <Button
-                variant="ghost"
-                size="icon"
-                aria-label="Follow us on X (Twitter)"
-              >
-                <XLogo className="h-4 w-4" />
-              </Button>
-            </Link>
             <ThemeSwitcher />
           </div>
 
-          {/* Request tool button - smaller on mobile */}
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={handleRequestTool}
-            className="hidden sm:flex"
-          >
-            <Hammer className="h-4 w-4 mr-2" />
-            Request a tool
-          </Button>
 
-          <Link
-            href="/x"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="sm:hidden"
-            aria-label="Follow us on X (Twitter)"
-          >
-            <Button
-              className="sm:hidden"
-              variant="outline"
-              size="icon"
-              aria-label="Follow us on X (Twitter)"
-            >
-              <XLogo className="h-4 w-4" />
-            </Button>
-          </Link>
 
           {/* Mobile request tool button */}
           <ThemeSwitcher className="sm:hidden" variant="outline" />
 
           {/* Coffee button - smaller on mobile */}
-          <Link
-            href="/coffee"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Buy me a coffee"
-          >
-            <Button size="sm" className="hidden sm:flex">
-              <Coffee className="h-4 w-4 mr-2" />
-              Buy me a coffee
-            </Button>
-            <Button
-              size="icon"
-              className="sm:hidden"
-              aria-label="Buy me a coffee"
-            >
-              <Coffee className="h-4 w-4" />
-            </Button>
-          </Link>
         </div>
       </div>
     </header>

@@ -13,9 +13,9 @@ export default function HomeFAQ() {
         <h2 className="text-2xl font-semibold mb-4 text-left">FAQ</h2>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger>What is BrowseryTools?</AccordionTrigger>
+            <AccordionTrigger>What is softstash?</AccordionTrigger>
             <AccordionContent>
-              BrowseryTools is a collection of free, open-source, browser-based
+              softstash is a collection of free, open-source, browser-based
               utilities for images, files, text, audio/video and more—no sign
               up, no servers.
             </AccordionContent>
@@ -54,9 +54,9 @@ export default function HomeFAQ() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
-            <AccordionTrigger>Is BrowseryTools open source?</AccordionTrigger>
+            <AccordionTrigger>Is softstash open source?</AccordionTrigger>
             <AccordionContent>
-              Yes. BrowseryTools is fully open source. You can view the code,
+              Yes. softstash is fully open source. You can view the code,
               report issues, and contribute on our{" "}
               <Link href="/gh" className="underline" target="_blank">
                 GitHub repo

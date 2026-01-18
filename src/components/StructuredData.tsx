@@ -15,13 +15,13 @@ export default function StructuredData({
   toolCategory,
   toolUrl,
 }: StructuredDataProps) {
-  const baseUrl = "https://browserytools.com";
+  const baseUrl = "https://softstash.org";
   const allTools = getAllTools().filter((tool) => tool.available);
 
   const getWebsiteStructuredData = () => ({
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Browser Tools",
+    name: "Soft  Stash",
     description:
       "Free online browser-based tools for productivity. No servers, full privacy. Image tools, file converters, text utilities, and more.",
     url: baseUrl,
@@ -35,7 +35,7 @@ export default function StructuredData({
     },
     publisher: {
       "@type": "Organization",
-      name: "Browser Tools",
+      name: "Soft  Stash",
       url: baseUrl,
       logo: {
         "@type": "ImageObject",
@@ -44,7 +44,7 @@ export default function StructuredData({
     },
     mainEntity: {
       "@type": "ItemList",
-      name: "Browser Tools Collection",
+      name: "Soft  Stash Collection",
       description: "Collection of free online tools",
       numberOfItems: allTools.length,
       itemListElement: allTools.map((tool, index) => ({
@@ -81,12 +81,12 @@ export default function StructuredData({
     dateModified: new Date().toISOString().split("T")[0],
     author: {
       "@type": "Organization",
-      name: "Browser Tools",
+      name: "Soft  Stash",
       url: baseUrl,
     },
     publisher: {
       "@type": "Organization",
-      name: "Browser Tools",
+      name: "Soft  Stash",
       url: baseUrl,
       logo: {
         "@type": "ImageObject",
@@ -111,7 +111,7 @@ export default function StructuredData({
   const getOrganizationStructuredData = () => ({
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Browser Tools",
+    name: "Soft  Stash",
     description: "Free online browser-based tools for productivity",
     url: baseUrl,
     logo: {
@@ -121,7 +121,7 @@ export default function StructuredData({
       height: 512,
     },
     sameAs: [
-      "https://github.com/aghyad97/browserytools",
+      "https://github.com/aghyad97/softstash",
       "https://x.com/aghyadev",
     ],
     contactPoint: {

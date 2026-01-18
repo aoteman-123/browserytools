@@ -5,11 +5,11 @@ import { redirect } from "next/navigation";
 import { findFirstTool } from "@/lib/search-utils";
 
 export const metadata: Metadata = {
-  title: "Browser Tools - Free Online Tools for Productivity",
+  title: "Soft  Stash - Free Online Tools for Productivity",
   description:
     "Discover 30+ free browser-based tools for productivity. No servers, full privacy. Image tools, file converters, text utilities, and more. All tools work directly in your browser.",
   keywords: [
-    "browser tools",
+    "Soft  Stash",
     "online tools",
     "free tools",
     "productivity tools",
@@ -20,9 +20,9 @@ export const metadata: Metadata = {
     "no server",
     "web tools",
   ],
-  authors: [{ name: "Browser Tools" }],
-  creator: "Browser Tools",
-  publisher: "Browser Tools",
+  authors: [{ name: "Soft  Stash" }],
+  creator: "Soft  Stash",
+  publisher: "Soft  Stash",
   robots: {
     index: true,
     follow: true,
@@ -37,29 +37,29 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://browserytools.com",
-    title: "Browser Tools - Free Online Tools for Productivity",
+    url: "https://softstash.org",
+    title: "Soft  Stash - Free Online Tools for Productivity",
     description:
       "Discover 30+ free browser-based tools for productivity. No servers, full privacy. Image tools, file converters, text utilities, and more.",
-    siteName: "Browser Tools",
+    siteName: "Soft  Stash",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Browser Tools - Free Online Tools",
+        alt: "Soft  Stash - Free Online Tools",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Browser Tools - Free Online Tools for Productivity",
+    title: "Soft  Stash - Free Online Tools for Productivity",
     description:
       "Discover 30+ free browser-based tools for productivity. No servers, full privacy.",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://browserytools.com",
+    canonical: "https://softstash.org",
   },
   category: "technology",
 };

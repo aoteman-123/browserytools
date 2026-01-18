@@ -1,6 +1,6 @@
 {
-  "name": "BrowseryTools",
-  "short_name": "BrowseryTools",
+  "name": "softstash",
+  "short_name": "softstash",
   "description": "Essential browser-based tools for productivity. No servers. Full privacy.",
   "start_url": "/",
   "scope": "/",

@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Browser Tools - Free Online Tools for Productivity",
-    short_name: "Browser Tools",
+    name: "Soft  Stash - Free Online Tools for Productivity",
+    short_name: "Soft  Stash",
     description:
       "Discover 30+ free browser-based tools for productivity. No servers, full privacy. Image tools, file converters, text utilities, and more.",
     start_url: "/",
@@ -44,7 +44,7 @@ export default function manifest(): MetadataRoute.Manifest {
         sizes: "1200x630",
         type: "image/png",
         form_factor: "wide",
-        label: "Browser Tools Homepage",
+        label: "Soft  Stash Homepage",
       },
     ],
     shortcuts: [

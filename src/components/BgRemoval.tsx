@@ -241,7 +241,7 @@ export default function BgRemoval() {
       link.href = url;
 
       const timestamp = new Date().toISOString().slice(0, 10);
-      link.download = `browserytools-${timestamp}.zip`;
+      link.download = `softstash-${timestamp}.zip`;
 
       document.body.appendChild(link);
       link.click();

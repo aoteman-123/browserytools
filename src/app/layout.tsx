@@ -8,13 +8,13 @@ const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "BrowseryTools - Essential Browser-Based Productivity Tools",
-    template: "%s | BrowseryTools",
+    default: "softstash - Essential Browser-Based Productivity Tools",
+    template: "%s | softstash",
   },
   description:
     "Essential browser-based tools for productivity. No servers. Full privacy. Convert files, compress images, generate passwords, format code, and more - all in your browser.",
   keywords: [
-    "browser tools",
+    "Soft  Stash",
     "productivity tools",
     "file converter",
     "image compression",
@@ -35,30 +35,30 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://browserytools.com"),
+  metadataBase: new URL("https://softstash.org"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://browserytools.com",
-    title: "BrowseryTools - Essential Browser-Based Productivity Tools",
+    url: "https://softstash.org",
+    title: "softstash - Essential Browser-Based Productivity Tools",
     description:
       "Essential browser-based tools for productivity. No servers. Full privacy. Convert files, compress images, generate passwords, format code, and more - all in your browser.",
-    siteName: "BrowseryTools",
+    siteName: "softstash",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "BrowseryTools - Essential Browser-Based Productivity Tools",
+        alt: "softstash - Essential Browser-Based Productivity Tools",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BrowseryTools - Essential Browser-Based Productivity Tools",
+    title: "softstash - Essential Browser-Based Productivity Tools",
     description:
       "Essential browser-based tools for productivity. No servers. Full privacy. Convert files, compress images, generate passwords, format code, and more - all in your browser.",
     images: ["/og-image.png"],
@@ -103,7 +103,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "BrowseryTools",
+    title: "softstash",
   },
   other: {
     "msapplication-TileColor": "#000000",

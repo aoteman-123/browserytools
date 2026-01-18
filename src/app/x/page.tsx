@@ -2,8 +2,8 @@ import { redirect } from "next/navigation";
 import { generatePageMetadata } from "@/lib/metadata";
 
 export const metadata = generatePageMetadata(
-  "Follow on X (Twitter) - Browser Tools",
-  "Follow Browser Tools on X (Twitter) for updates, new tools, and productivity tips.",
+  "Follow on X (Twitter) - Soft  Stash",
+  "Follow Soft  Stash on X (Twitter) for updates, new tools, and productivity tips.",
   "/x"
 );
 

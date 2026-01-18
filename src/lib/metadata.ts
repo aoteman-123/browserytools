@@ -6,12 +6,12 @@ export function generateToolMetadata(href: string): Metadata {
 
   if (!tool) {
     return {
-      title: "Tool Not Found - Browser Tools",
+      title: "Tool Not Found - Soft  Stash",
       description: "The requested tool could not be found.",
     };
   }
 
-  const baseUrl = "https://browserytools.com";
+  const baseUrl = "https://softstash.org";
   const toolUrl = `${baseUrl}${href}`;
 
   // Enhanced SEO-optimized title and description
@@ -295,9 +295,9 @@ export function generateToolMetadata(href: string): Metadata {
             ].includes(word)
         ),
     ],
-    authors: [{ name: "Browser Tools" }],
-    creator: "Browser Tools",
-    publisher: "Browser Tools",
+    authors: [{ name: "Soft  Stash" }],
+    creator: "Soft  Stash",
+    publisher: "Soft  Stash",
     robots: {
       index: true,
       follow: true,
@@ -315,7 +315,7 @@ export function generateToolMetadata(href: string): Metadata {
       url: toolUrl,
       title: seoTitle,
       description: seoDescription,
-      siteName: "Browser Tools - 100% Free Online Tools",
+      siteName: "Soft  Stash - 100% Free Online Tools",
       images: [
         {
           url: "/og-image.png",
@@ -330,8 +330,8 @@ export function generateToolMetadata(href: string): Metadata {
       title: seoTitle,
       description: seoDescription,
       images: ["/og-image.png"],
-      creator: "@browserytools",
-      site: "@browserytools",
+      creator: "@softstash",
+      site: "@softstash",
     },
     alternates: {
       canonical: toolUrl,
@@ -352,19 +352,19 @@ export function generateToolMetadata(href: string): Metadata {
         dateModified: new Date().toISOString().split("T")[0],
         author: {
           "@type": "Organization",
-          name: "Browser Tools",
-          url: "https://browserytools.com",
+          name: "Soft  Stash",
+          url: "https://softstash.org",
           description:
             "100% Free Online Tools - No Ads, No Registration, No Servers",
         },
         publisher: {
           "@type": "Organization",
-          name: "Browser Tools",
-          url: "https://browserytools.com",
+          name: "Soft  Stash",
+          url: "https://softstash.org",
           description: "Open source browser-based tools with complete privacy",
           logo: {
             "@type": "ImageObject",
-            url: "https://browserytools.com/icon.svg",
+            url: "https://softstash.org/icon.svg",
           },
         },
         offers: {
@@ -420,7 +420,7 @@ export function generatePageMetadata(
   description: string,
   path: string = ""
 ): Metadata {
-  const baseUrl = "https://browserytools.com";
+  const baseUrl = "https://softstash.org";
   const pageUrl = `${baseUrl}${path}`;
 
   // Enhanced SEO-optimized page metadata
@@ -436,7 +436,7 @@ export function generatePageMetadata(
     description: seoPageDescription,
     keywords: [
       // Core differentiators
-      "browser tools",
+      "Soft  Stash",
       "online tools",
       "free tools",
       "free forever",
@@ -485,9 +485,9 @@ export function generatePageMetadata(
       "alternative to",
       "replacement for",
     ],
-    authors: [{ name: "Browser Tools" }],
-    creator: "Browser Tools",
-    publisher: "Browser Tools",
+    authors: [{ name: "Soft  Stash" }],
+    creator: "Soft  Stash",
+    publisher: "Soft  Stash",
     robots: {
       index: true,
       follow: true,
@@ -505,7 +505,7 @@ export function generatePageMetadata(
       url: pageUrl,
       title: seoPageTitle,
       description: seoPageDescription,
-      siteName: "Browser Tools - 100% Free Online Tools",
+      siteName: "Soft  Stash - 100% Free Online Tools",
       images: [
         {
           url: "/og-image.png",
@@ -520,8 +520,8 @@ export function generatePageMetadata(
       title: seoPageTitle,
       description: seoPageDescription,
       images: ["/og-image.png"],
-      creator: "@browserytools",
-      site: "@browserytools",
+      creator: "@softstash",
+      site: "@softstash",
     },
     alternates: {
       canonical: pageUrl,

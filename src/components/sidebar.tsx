@@ -88,7 +88,7 @@ export default function Sidebar() {
       <div className="mt-4 flex items-center">
         <Link href="/" className="flex items-center space-x-2 px-4">
           <Logo />
-          <span className="font-semibold text-xl">BrowseryTools</span>
+          <span className="font-semibold text-xl">softstash</span>
         </Link>
       </div>
 

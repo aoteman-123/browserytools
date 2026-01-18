@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://browserytools.com";
+  const baseUrl = "https://softstash.org";
 
   return {
     rules: [
